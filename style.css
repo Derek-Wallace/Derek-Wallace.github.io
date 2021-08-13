@@ -37,6 +37,7 @@
   cursor: pointer;
   user-select: none;
   margin-left: -15px;
+  color: #f7f7f7;
 }
 
 .circle:hover {
