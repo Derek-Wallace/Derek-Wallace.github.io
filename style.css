@@ -31,19 +31,19 @@
 }
 
 .circle {
+  color: #f7f7f7 !important;
   z-index: 5;
   border: 5px solid #00d9ff;
   background-color: rgb(68, 67, 67);
   cursor: pointer;
   user-select: none;
   margin-left: -15px;
-  color: #f7f7f7 !important;
 }
 
 .circle:hover {
   transition: all .5s;
-  background-color: #00d9ff;
   color: black !important;
+  background-color: #00d9ff;
 }
 
 .content {
