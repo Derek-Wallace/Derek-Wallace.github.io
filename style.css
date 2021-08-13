@@ -37,13 +37,13 @@
   cursor: pointer;
   user-select: none;
   margin-left: -15px;
-  color: #f7f7f7;
+  color: #f7f7f7 !important;
 }
 
 .circle:hover {
   transition: all .5s;
   background-color: #00d9ff;
-  color: black;
+  color: black !important;
 }
 
 .content {
