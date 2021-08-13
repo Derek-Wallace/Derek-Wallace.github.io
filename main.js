@@ -15,4 +15,16 @@ function show(){
   document.getElementById("apps").classList.remove("d-none")
   document.getElementById("about").classList.remove("d-none")
   document.getElementById("about-body").classList.remove("d-none")
+
+  document.getElementById("app-title").classList.add("content")
+  document.getElementById("kotini").classList.add("content")
+  document.getElementById("kotini-body").classList.add("content")
+  document.getElementById("kannedit").classList.add("content")
+  document.getElementById("kannedit-body").classList.add("content")
+  document.getElementById("vaultman").classList.add("content")
+  document.getElementById("vaultman-body").classList.add("content")
+  document.getElementById("bugbyte").classList.add("content")
+  document.getElementById("bugbyte-body").classList.add("content")
+  document.getElementById("bugbyte-img").classList.add("content")
+
 }
