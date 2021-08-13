@@ -1,0 +1,18 @@
+function show(){
+  document.getElementById("about").classList.add("content")
+  document.getElementById("about-body").classList.add("content")
+  document.getElementById("contact").classList.add("content")
+  document.getElementById("contact-gh").classList.add("content")
+  document.getElementById("contact-ln").classList.add("content")
+  document.getElementById("contact-email").classList.add("content")
+  document.getElementById("contact-phone").classList.add("content")
+  document.getElementById("apps").classList.add("content-apps")
+  document.getElementById("contact").classList.remove("d-none")
+  document.getElementById("contact-gh").classList.remove("d-none")
+  document.getElementById("contact-ln").classList.remove("d-none")
+  document.getElementById("contact-email").classList.remove("d-none")
+  document.getElementById("contact-phone").classList.remove("d-none")
+  document.getElementById("apps").classList.remove("d-none")
+  document.getElementById("about").classList.remove("d-none")
+  document.getElementById("about-body").classList.remove("d-none")
+}
