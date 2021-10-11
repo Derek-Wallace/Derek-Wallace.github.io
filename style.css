@@ -39,6 +39,15 @@ body {
   border-right: solid 3px #00d9ff;
 }
 
+@media screen and (max-width: 1000px) {
+  .img-fix {
+    width: 100vw;
+    height: 50vh;
+    border-bottom: solid 3px #00d9ff;
+    border-right: none;
+  }
+}
+
 .circle {
   color: #f7f7f7 !important;
   z-index: 5;
@@ -53,6 +62,12 @@ body {
   transition: all .5s;
   color: black !important;
   background-color: #00d9ff;
+}
+
+@media screen and (max-width: 1000px) {
+  .circle {
+    margin-left: 4px;
+  }
 }
 
 .content {
